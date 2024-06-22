@@ -1,0 +1,232 @@
+body{
+    /* 背景颜色蓝色 */
+    background-color: rgb(109, 198, 234);
+    /* 移除内外边距 */
+    margin:0;
+    padding:0;
+    /* 设置网页的默认字体为Arial，如果浏览器不支持Arial则使用Helvetica，如果两者都不支持则使用sans-serif。 */
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    /* 背景颜色azure */
+    background-color: azure;
+    /* 移除外边距 */
+    margin:0;
+    /* 高度200px */
+    height: 300px;
+    /* 宽度100% */
+    width:100%;
+    /* 移除内边距 */
+    padding: 0;
+}
+header img#headerflower{
+    /* 宽度100%，高度300px */
+    width:100%;
+    height: 300px;
+}
+nav{
+    /* 高度50px,背景颜色蓝色 */
+    height: 50px;
+    background-color: #159ec8;
+    /* 设置导航栏中的文本居中对齐 */
+    text-align: center;
+    /* 行高50px*/ 
+    line-height: 50px;
+    /* 在导航栏的顶部和底部各添加一个1px的黄色实线边框 */
+    border-top:1px  solid #efe017;
+    border-bottom:1px solid #efe017;
+}
+
+nav ul{
+    /* 移除内外边距和导航列表默认样式 */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    /* 链接元素显示为内联块级元素 */
+    display: inline-block;
+    /* 设置外边距 */
+    margin: 0 10px 0 10px;
+}
+nav a{
+     /* 链接元素显示为内联块级元素 */
+    display:inline-block;
+    /* 内边距上下0，左右80px */
+    padding:0 80px;
+    /* 高度与父元素相同 */
+    height: 100%;
+    /* 行高20px */
+    line-height: 20px;
+    /* 移除链接的下划线 */
+    text-decoration: none;
+    /* 字体颜色黑色 */
+    color:black;
+} 
+
+.page{   
+    /* 背景颜色 */
+    background-color: rgb(123, 209, 235);
+    /* 内边距上下左右20px */
+    padding: 20px; 
+    /* 顶部外边距0 */
+    margin-top: 0; 
+     /* 盒模型为border-box */
+    box-sizing: border-box;
+    /* 左边框和右边框为1px宽，颜色为#36bce4 */
+    border-left:1px solid #36bce4;
+    border-right:1px solid #36bce4;
+}
+.word h2{
+    /* 背景颜色为#36bce4 */  
+    background-color: #36bce4;
+    /* 文本水平居中对齐 */
+    text-align: center;
+    /* 行高为30px */ 
+    line-height: 30px;
+    /* 内边距上下为15px，左右为5px */
+    padding:15px 5px;
+     /* 上外边距为10px */ 
+    margin-top: 10px;
+    /* 下外边距为10px */ 
+    margin-bottom: 10px;
+    /* 字体颜色黑色 */
+    color: black;
+}
+.jianjie {  
+    /* 宽度100% */
+    width: 100%; 
+    /* 清除浮动影响，确保容器包含浮动子元素 */  
+    overflow: auto; 
+    /* 顶部外边距0px */
+    margin-top: 0px;
+}    
+.personaleft{
+    /* 设置元素浮动到左侧 */  
+    float: left;
+    /* 设置宽度为600px */  
+    width: 600px;
+    /* 设置左外边距为10px */ 
+    margin-left: 10px;
+     /* 设置右外边距为10px */ 
+    margin-right: 40px;
+     /* 设置上外边距为10px */ 
+    margin-top:-30px;
+    /* 背景颜色白色 */
+    background-color:  #ffffff;
+    /* 边框2px蓝色实线 */
+    border: 2px solid  #36bce4;
+}
+.personaleft h3{
+       /*行高36px  */
+    line-height: 36px;
+    /* 设置上下内边距为10px */
+    padding:10px 0;
+    /* 背景颜色 */
+    background-color:  rgb(129, 235, 254);
+    /* 字体颜色为白色 */
+    color:  #ffffff;
+    /* 文本对齐居中 */
+    text-align: center;
+    /* 底部外边距0 */
+    margin-bottom: 0;
+}
+.personaleft p{
+    /* 行高27px */
+    line-height: 27px;
+    text-indent: 10px 0;
+    /* 左右内边距15px */
+    padding: 0 15px;
+    /*  顶部部外边距0  */
+    margin-top: 0;
+     /* 底部外边距30px */
+    margin-bottom: 30px;
+}
+.personalright{
+    /* 浮动到左侧 */
+    float: left;
+    /* 左外边距30px */
+    margin-left: 30px;
+    /* 右外边距0 */
+    margin-right: 0;
+    /* 宽度200px */
+    width:200px;
+    /* 文本对齐居中 */
+    text-align: center;
+}
+
+.personalright img{
+    /* 宽度200px */
+    width:200px;
+    /* 高度280px */
+    height: 280px;
+    /* 边框2px蓝色实线 */
+    border:2px solid #159ec8;
+}  
+
+.aihao ul li{
+    /* 浮动到左侧 */
+    float: left;
+    /* 宽度300px */
+    width: 300px;
+    /* 文本对齐居中 */
+    text-align: center;
+    /* 左外边距30px，右外边距50px */
+    margin-left: 30px;
+    margin-right: 40px;
+    /* 边框2px蓝色实线 */
+    border: 2px solid#18bce9;
+    /* 背景颜色 */
+    background-color: rgb(129, 235, 254);
+    /* 字体颜色 */
+    color:#18bce9;
+}
+
+.aihao ul li img{
+    /* 顶部外边距0 */
+    margin-top: 0;
+    /* 宽度300px */
+    width: 300px;
+    /* 高度220px */
+    height: 220px;
+}
+.aihao ul li h3{
+    /* 行高36px */
+    line-height: 36px;
+    /* 左右内边距10px，上下内边距0 */
+    padding:10px 0;
+    /* 背景颜色 */
+    background-color:  rgb(129, 235, 254);
+    /* 字体颜色白色 */
+    color:  #ffffff;
+    /* 文本对齐居中 */
+    text-align: center;
+    /*水平居中  */
+    margin:auto 0;
+}
+.aihao ul li p{
+    /* 行高36px */
+    line-height: 36px;
+    /* 字体颜色black */
+    color:black;
+}
+footer{
+    /* 背景颜色 */
+    background-color: #159ec8;
+    /* 字体颜色 */
+    color: #FFFFFF;
+    /* 文本对齐居中 */
+    text-align: center;
+    /* 高度55px */
+    height: 55px;
+    /* 顶部内边距5px */
+    padding-top: 5px;
+}
+footer p{
+    /* 块级元素 */
+    display: block;
+    /* 字号小 */
+    font-size: small;
+    /* 字体sans-serif */
+    font-family: sans-serif;
+}

@@ -1,0 +1,176 @@
+/* 容器样式 */
+.container {
+    /* 上下外边距0，左右外边距80px */
+    margin: 0 80px;
+    /* 隐藏容器超出边界的内容 */
+    overflow: hidden;
+}
+
+/* contain2容器样式 */
+.container2{
+    /* 容器最大宽度1200px */
+    max-width: 1200px;
+    /* 上下外边距0，水平居中 */
+    margin: 0 auto;
+}
+
+/* 弹性布局 */
+.flexbox {
+    display: flex;
+}
+
+/* 二级标题样式 */
+.title h2 {
+    /* 字体大小44px */
+    font-size: 44px;
+    /* 底部内边距40px */
+    padding: 0 0 40px;
+    /* 颜色是白色 */
+    color: #FFFFFF;
+}
+
+/* 标题下段落样式 */
+.title p{
+    /* 字体颜色白色 */
+    color: #FFFFFF;
+}
+
+/* sec-1区域样式 */
+.sec-1{
+    /* 顶部外边距80px */
+    margin-top: 80px;
+    /* 左右内边距30px,上下60px */
+    padding: 60px 30px;
+    /* 背景颜色#32a9d8da */
+    background-color: #32a9d8da;
+}
+
+/* sec-1左侧区域宽度70% */
+.sec-1-left{
+    width: 70%;
+}
+
+/* sec-1文本行高30px */
+.sec-1-text{
+    line-height: 30px;
+}
+
+/* sec-1，sec-3文本内容白色 */
+.sec-3-text p,
+.sec-1-text p{
+    color: #FFFFFF;
+}
+
+/* 设置sec-1内右侧区域flex属性是1 */
+.sec-1-right{
+    flex: 1;
+}
+
+/* sec-1右侧图片样式 */
+.sec-1-img{
+    /* 高度322px */
+    height: 322px;
+    /* 边框为2px实线，颜色#fcee50 */
+    border: 2px solid #fcee50;
+}
+
+/* sec-1和sec-2图片容器的图片样式 */
+.sec-1-img img,
+.sec-2-img img{
+    /* 宽高度都为100% */
+    width: 100%;
+    height: 100%;
+    /* 使用object-fit覆盖图片以填充容器 */
+    object-fit: cover;
+}
+
+
+/* sec-2区域 */
+.sec-2{
+    /* 内边距，上下80px,左右30px */
+    padding: 80px 30px;
+}
+
+
+/* sec-2图片样式*/
+.sec-2-img {
+    /* 宽度50% */
+    width: 50%;
+    /* 高度480px */
+    height: 480px;
+    /* 边框2px黄色实线 */
+    border: 2px solid #fcee50;
+}
+
+/* 定义图片hover时样式，放大1.2倍 */
+.sec-2-img:hover{
+    transform: scale(1.2);
+}
+
+/* nth-child选择第二个图片容器 */
+.sec-2-img:nth-child(2) {
+    /* 顶部外边距25px */
+    margin-top: 25px;
+    /* 顶部左边距 */
+    margin-left: -25px;
+}
+
+ /* nth-child选择第三个图片容器 */ 
+.sec-2-img:nth-child(3) {
+    /* 顶部外边距 */
+    margin-top: 50px;
+    /* 顶部左边距 */
+    margin-left: -25px;
+}
+
+/* sec-2左侧区域样式，宽度55%，左边内边距100px，使用box-sizing包含内边距在宽度内 */
+.sec-2-left{
+    width: 55%;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+/* 设置sec-2左侧区域的标题样式，上边内边距为40px */
+.sec-2-left .title{
+    padding-top: 40px;
+}
+
+/* 设置sec-3区域样式，底部外边距为60px */ 
+.sec-3{
+    margin-bottom: 60px;
+}
+
+.sec-3-text{
+    /* 为flex子项分配空间 */
+    flex: 1;
+    /* 右内边距80px */
+    padding-right: 80px;
+}
+
+/* 设置sec-3内文本的行高为30px */
+.sec-3-text p{
+    line-height: 30px;
+}
+
+/*设置sec-3内部垂直居中 */
+.sec-3-inner{
+    align-items: center;
+    /* 上下内边距60px,左右0 */
+    padding: 60px 0;
+}
+
+.sec-3-img-wrap {
+    /* 宽度50% */
+    width: 50%;
+    /* 如果 .sec-3-img-wrap 是flex容器，则允许其子元素换行 */ 
+    flex-wrap: wrap;
+    /* 边框2px黄色实线 */
+    border: 2px solid #fcee50;
+}
+
+.sec-3-img-wrap img{
+    /* 宽度50% */
+    width: 50%;
+    /* 高度200px */
+    height: 200px;
+}

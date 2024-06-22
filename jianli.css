@@ -1,0 +1,65 @@
+section{
+    /* 背景图片 */
+    background-image: url(images/ddd4.jpg);
+}
+/* 定义表格的整体样式 */  
+.introduction table {  
+    /* 移除单元格之间的空白 */  
+    border-collapse: collapse; 
+    /* 宽度800px */
+    width: 800px; 
+    /* 使表格居中 */  
+    margin: 0 auto; 
+}  
+  
+/* 定义表头的样式 */  
+.introduction th {  
+    /* 背景颜色 */
+    background-color: rgb(57, 182, 204); 
+    /* 字体为白色 */
+    color: #fff;
+     /* 内边距 */  
+    padding: 10px;
+    /* 表头文本左对齐*/ 
+    text-align: left;  
+    /* 边框1px灰色实线 */  
+    border: 1px solid #ddd; 
+}  
+  
+/* 定义表格单元格的样式 */  
+.introduction td { 
+     /* 内边距 */  
+    padding: 10px; 
+    /* 边框1px灰色实线 */  
+    border: 1px solid #ddd; 
+}  
+  
+
+.introduction tr:nth-child(even) td { 
+    /* 偶数行背景色 */  
+    background-color: #f2f2f2;  
+}  
+  
+.introduction tr:nth-child(odd) td { 
+    /*奇数行背景色*/  
+    background-color: #fff;  
+}  
+
+.profilephoto{
+    /* 宽度100px */
+    width: 100px; 
+    /* 移除内边距以确保图片填满单元格 */
+    padding:0; 
+    /* 无边框 */
+    border: none; 
+}
+.profilephoto img{
+      /* 设置图片样式以填满单元格 ，宽度100%  */
+      width: 100%; 
+    /* 图片高度自动调整以保持比例 */  
+      height: auto;
+     /* 块级元素 */
+      display: block;  
+}
+
+  

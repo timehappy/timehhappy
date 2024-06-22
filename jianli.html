@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- 文档字符编码格式为UTF-8 -->
+        <meta charset="UTF-8">
+         <!-- 网页按照设备的屏幕宽度来渲染，并且初始的缩放级别为1，即不缩放 -->
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!-- 网页标题设置为Document -->
+        <title>Document</title>
+        <!-- 链接名为index.css的样式表 -->
+        <link rel="stylesheet" href="index.css">
+        <!-- 链接名为jianli.css的样式表 -->
+        <link rel="stylesheet" href="jianli.css">
+    </head>
+
+    <body>
+        <!-- 页眉区header -->
+        <header>
+            <!-- 指定图片路径是images/fififi.jpg,若无法显示，就展示文本Welcome to my personal homepage! -->
+            <img id="headerflower" 
+                 src="images/fififi.jpg" alt="Welcome to my personal homepage!">
+        </header>
+        <!-- end of header -->
+         
+        <!-- 导航nav -->
+        <nav>
+            <!-- 无序列表 -->
+            <ul>
+                <!-- 列表第一个项目，链接到index.html页面的"首页" -->
+                <li><a href="index.html"><p>首页</p></a></li> 
+                <!-- 列表第二个项目，链接到jianli.html页面的"个人简历" --> 
+                <li><a href="jianli.html"><p>个人简历</p></a></li>  
+                <!-- 列表第三个项目，链接到experience.html页面的"生活经历" -->
+                <li><a href="experience.html"><p>生活经历</p></a></li>
+                <!-- 列表第四个项目，链接到contact.html页面的"联系我" -->
+                <li><a href="contact.html"><p>联系我</p></a></li>  
+            </ul>
+            <!-- end of ul -->
+        </nav>
+        <!-- end of nav -->
+        
+        <!-- 区块 -->
+        <section class="introduction">
+            <!-- 用表格写简历 -->
+            <table>
+                <!-- 标题行 -->
+                <tr>
+                    <th colspan="7" >
+                        <!-- 标题文字 -->
+                        我的个人简介
+                    </th>
+                </tr>
+                <!-- end -->
+
+                <!-- 个人基本信息（td表示数据单元格，th表示表头单元格） -->
+                 <!-- 新的一行 -->
+                <tr>
+                    <th>姓名:</th>
+                    <td>黄佳意</td>
+                    <th>年龄:</th>
+                    <td>20</td>
+                    <th>民族:</th>
+                    <td>汉族</td>
+                    <!--个人照片单元格，跨三行 -->
+                    <td rowspan="3" class="profilephoto"><img src="images/pho.jpg" ></td>
+                </tr>
+                <!-- 新的一行结束 -->
+
+                <!-- 新的一行（介绍个人信息) -->
+                 <!-- td表示数据单元格，th表示表头单元格 -->
+                <tr>
+                    <th>出生日期:</th>
+                    <td>2004-09-25</td>
+                    <th>政治面貌:</th>
+                    <td>团员</td>
+                    <th>学历:</th>
+                    <td>本科</td>
+                </tr>
+                <!-- 新的一行结束 -->
+                 <!-- 新的一行 -->
+                  <!-- td表示数据单元格，th表示表头单元格 -->
+                <tr>
+                    <th>专业:</th>
+                    <td>计算机科学与技术</td>
+                    <th>就读学校:</th>
+                    <td>中南财经政法大学</td>
+                    <th>期望岗位:</th>
+                    <td>计算机/运营</td>
+                </tr>
+                <!-- 新的一行结束 -->
+
+                <!-- 新的一行 介绍基本信息-->
+                 <!-- td表示数据单元格，th表示表头单元格 -->
+                <tr>
+                    <th>期望月薪:</th>
+                    <td>100k</td>
+                    <th>籍贯:</th>
+                    <td>湖南永州</td>
+                    <th>邮箱:</th>
+                    <td colspan="2"><a href="https://www.163.com/">197055029@qq.com</a></td>
+                </tr>
+                <!-- 新的一行结束 -->
+
+                <!-- 新的一行介绍个人特长 -->
+                 <!-- td表示数据单元格，th表示表头单元格 -->
+                <tr>
+                    <th>个人特长:</th>
+                    <td colspan="6">
+                        <!-- 文本内容 -->
+                        <p>具备扎实的编程基础，精通java、python语言</p>
+                        <p>熟悉关系数据库MYSQL，有一定的SQL优化经验</p>
+                        <p>熟练运用git、Linux操作系统等基本命令</p>
+                        <p>属性Spring、SpringMVC、SpringBoot等开发技术</p>
+                        <!-- 文本内容结束 -->
+                    </td>
+                </tr>
+                <!-- 新的一行结束 -->
+
+                <!-- 新的一行介绍个人经历 -->
+                 <!-- td表示数据单元格，th表示表头单元格 -->
+                <tr>
+                    <th>校园经历:</th>
+                    <td colspan="6">
+                        <!-- 文本内容 -->
+                        <p>积极参加博文杯、大学生创新创业挑战赛、互联网+等比赛，其中博文已结项，大创成功立项</p>
+                        <p>作为多个志愿活动负责人，策划校园志愿活动十余次，积极参加志愿活动，志愿总工时130余小时</p>
+                        <!-- 文本内容结束 -->
+                    </td>
+                </tr>
+                <!-- 新的一行结束 -->
+
+                <!-- 新的一行 说明自我评价-->
+                 <!-- td表示数据单元格，th表示表头单元格 -->
+                <tr>
+                    <th>自我评价:</th>
+                    <td colspan="6">
+                        <!-- 文本内容 -->
+                        <p>深度互联网从业人员，对互联网保持高度的敏感性和关注度，熟悉铲平开发流程，有很强的产品规划、交互设计能力，能独立承担APP和WEB项目的管控工作</p>
+                        <!-- 文本内容结束 -->
+                    </td>
+                </tr>
+                <!-- 新的一行结束 -->
+            </table>
+            <!-- 表格结束 -->
+        </section>
+        <!-- end of section -->
+
+        <!-- footer页脚 -->
+      <footer>
+        <!-- 文本内容 -->
+        <p>Welcome to my personal homepage!<br>
+                欢迎来到我的网站</p>
+      </footer>
+      <!-- end of footer -->
+    </body>
+</html>

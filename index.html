@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- 文档字符编码格式为UTF-8 -->
+        <meta charset="UTF-8"> 
+        <!-- 网页按照设备的屏幕宽度来渲染，并且初始的缩放级别为1，即不缩放 --> 
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!-- 网页标题设置为Document -->
+        <title>Document</title>
+        <!-- 链接名为index.css的样式表 -->
+        <link rel="stylesheet" href="index.css">
+    </head>
+    
+    <body>
+        <!-- 页眉区header -->
+        <header>
+            <!-- 指定图片路径是images/fififi.jpg,若无法显示，就展示文本Welcome to my personal homepage! -->
+            <img id="headerflower" 
+                 src="images/fififi.jpg" alt="Welcome to my personal homepage!">
+        </header>
+        <!-- end of header -->
+         
+        <!-- 导航nav -->
+        <nav>
+            <!-- 无序列表 -->
+            <ul>
+                <!-- 列表第一个项目，链接到index.html页面的"首页" -->
+                <li><a href="index.html"><p>首页</p></a></li> 
+                <!-- 列表第二个项目，链接到jianli.html页面的"个人简历" --> 
+                <li><a href="jianli.html"><p>个人简历</p></a></li>  
+                <!-- 列表第三个项目，链接到experience.html页面的"生活经历" -->
+                <li><a href="experience.html"><p>生活经历</p></a></li>
+                <!-- 列表第四个项目，链接到contact.html页面的"联系我" -->
+                <li><a href="contact.html"><p>联系我</p></a></li>  
+            </ul>
+            <!-- end of ul -->
+        </nav>
+        <!-- end of nav -->
+        
+        <!-- 区块 -->
+        <section>
+            <div class="page">
+                <!--个人介绍开始-->
+                <div class="word">
+                    <!-- 标题 -->
+                    <h2>个人介绍</h2>
+                    <!-- end -->
+                </div>
+
+                <!-- 个人简介区域 -->
+                <div class="jianjie">
+                    <!-- 个人简介 -->
+                    <div class="personaleft">
+                        <!-- 标题 -->
+                        <h3>个人简介</h3>
+                        <!-- 个人简介文本内容 -->
+                        <p>  我是黄佳意，一名积极向上的女大学生，一个热爱挑战和学习的年轻人。我就读的学校是中南财经政法大学，就读专业是计算机科学与技术。我注重细节，善于在复杂的问题中寻找创新的解决方案。我具备较强的沟通能力和团队合作精神，能够与不同背景的人有效合作，共同实现目标。
+                        我性格开朗，喜欢结交朋友，与不同的人交流。在学习上，我专注认真、勤奋努力，对计算机领域的内容有着强烈的兴趣。校园生活丰富多彩，我也经常参加校园的志愿活动，让我受益颇丰。
+                        我相信，只有不断努力和学习，才能不断进步。因此，我始终保持着对知识的渴望和对新事物的好奇心。我期待在未来能够运用自己的专业知识和技能，给计算机行业发展贡献出自己的力量。</p>
+                    </div>
+                    <!-- 右侧图片区域，用于显示个人照片 -->
+                    <div class="personalright">
+                        <!--照片1 -->
+                        <img src="images/personalright1.jpg">
+                    </div>
+                    <div class="personalright">
+                         <!-- 照片2 -->
+                        <img src="images/personalright2.jpg">
+                    </div>
+                </div>
+                <!--  个人简介区域结束-->
+                <!--  兴趣爱好区域-->
+                <div class="aihao">
+                    <!-- 标题区域，显示"个人爱好" -->
+                    <div class="word">
+                        <h2>个人爱好</h2>
+                    </div>
+                    <!-- 爱好列表 -->
+                    <ul>
+                        <!-- 第一个爱好列表项 -->
+                        <li>
+                            <!-- 爱好标题 -->
+                            <h3>养多肉</h3>
+                            <!-- 多肉图片 -->
+                            <img src="images/like1.jpg" />
+                            <!-- 关于多肉的文本内容描述 -->
+                            <p>看到多肉慢慢长大会有一种自豪感，每天在观察多肉的过程中心情会变得很愉悦。同时多肉养护简单，不需要花太多心思。</p>
+                        </li>
+                        <!-- 第二个爱好列表项 -->
+                        <li>
+                            <!-- 爱好标题 -->
+                            <h3>追综艺</h3>  
+                            <!-- 综艺图片 -->
+                            <img src="images/like4.jpg" />
+                            <!-- 关于综艺的文本内容描述 -->
+                            <p>看综艺节目是我喜欢在繁忙时间放松的方式，能让我的压力得到释放，让我继续有动力完成工作。</p> 
+                        </li>
+                        <!-- 第三个爱好列表项 -->
+                        <li>
+                            <!-- 爱好标题 -->
+                            <h3>画画</h3>
+                            <!-- 画画图片 -->
+                            <img src="images/like3.jpg" />
+                            <!-- 关于画画的文本内容描述 -->
+                            <p>画画是我喜欢在闲暇时用来打发时间的方式，让我表达内心，创造美好，享受色彩与线条的交融，带来无尽的乐趣和成就感。</p> 
+                        </li>
+                    </ul>
+                    <!-- 爱好列表结束 -->
+                    <!-- 清除浮动元素的影响 -->
+                    <div style="clear: both;"></div>
+                </div>
+                <!--兴趣爱好区域结束  -->
+            </div>
+            <!-- 个人介绍结束 -->
+        </section>
+       <!-- end of section -->
+        
+
+       <!-- footer页脚 -->
+      <footer>
+        <!-- 文本内容 -->
+        <p>Welcome to my personal homepage!<br>
+                欢迎来到我的网站</p>
+      </footer>
+      <!-- end of footer -->
+    </body>    
+</html>

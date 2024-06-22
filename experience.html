@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- 文档字符编码格式为UTF-8 -->
+        <meta charset="UTF-8"> 
+        <!-- 网页按照设备的屏幕宽度来渲染，并且初始的缩放级别为1，即不缩放 --> 
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!-- 网页标题设置为Document -->
+        <title>Document</title>
+        <!-- 链接名为index.css的样式表 -->
+        <link rel="stylesheet" href="index.css">
+        <!-- 链接名为experience.css的样式表 -->
+        <link rel="stylesheet" href="experience.css">
+    </head>
+
+    <body>
+        <!-- 页眉区header -->
+        <header>
+            <!-- 指定图片路径是images/fififi.jpg,若无法显示，就展示文本Welcome to my personal homepage! -->
+            <img id="headerflower" 
+                 src="images/fififi.jpg" alt="Welcome to my personal homepage!">
+        </header>
+        <!-- end of header -->
+         
+        <!-- 导航nav -->
+        <nav>
+            <!-- 无序列表 -->
+            <ul>
+                <!-- 列表第一个项目，链接到index.html页面的"首页" -->
+                <li><a href="index.html"><p>首页</p></a></li> 
+                <!-- 列表第二个项目，链接到jianli.html页面的"个人简历" --> 
+                <li><a href="jianli.html"><p>个人简历</p></a></li>  
+                <!-- 列表第三个项目，链接到experience.html页面的"生活经历" -->
+                <li><a href="experience.html"><p>生活经历</p></a></li>
+                <!-- 列表第四个项目，链接到contact.html页面的"联系我" -->
+                <li><a href="contact.html"><p>联系我</p></a></li>  
+            </ul>
+            <!-- end of ul -->
+        </nav>
+        <!-- end of nav -->
+        
+        <!-- 区块 -->
+        <section >
+            <!-- 弹性布局flex -->
+             <!-- 定义一个 div容器，具有sec-1 flexbox container2类 -->
+            <div class="sec-1 flexbox container2">
+
+                <!-- 左侧内容区域 -->
+                 <!-- 定义div容器，具有sec-1-left类 ，存放比赛的文本内容-->
+                <div class="sec-1-left">
+
+                    <!-- 左侧文本标题区域 -->
+                    <div class="title" >
+                        <!-- 标题 -->
+                        <h2>比赛经历</h2>
+                        <!-- 文本内容 -->
+                        <p>competition experience</p>
+                    </div>
+                    <!-- end -->
+
+                    <!-- 左侧的文本内容区域 -->
+                    <div class="sec-1-text">
+                        <!-- 比赛文本内容 -->
+                        <p>大二上学期在体育课程中学习了拉丁和华尔兹舞蹈，和班级同学组队参加了校园青春舞蹈比赛。</p>
+                        <p>在科研比赛中，作为负责人组织团队参加大创，设计智慧医疗图像识别项目，现已成功立项。</p>
+                        <p>参加全国大学生英语竞赛，获三等奖。</p>
+                    </div>
+                    <!-- end -->
+                </div>
+                <!-- 左侧比赛文本内容区域结束 -->
+
+                <!--  右侧区域-->
+                <div class="sec-1-right">
+                    <!-- 文本内容右侧放置图片 -->
+                    <div class="sec-1-img">
+                        <!-- src指定图片路径是images/d1.jpg，alt指定图片无法加载时的文本内容 -->
+                        <img src="images/d1.jpg" alt="">
+                    </div>
+                    <!-- end of sec-1-img -->
+                </div>
+                <!-- 右侧区域 结束-->
+            </div>
+            <!-- end of sec-1 flexbox container2 -->
+            
+            <!-- 弹性布局flex -->
+             <!-- 定义div容器，具有sec-2 flexbox container2类 -->
+            <div class="sec-2 flexbox container2">
+                <!-- 定义div容器，具有sec-1-right flexbox类 -->
+                <div class="sec-1-right flexbox" >
+                    <!-- 定义div容器，具有sec-2-img类 -->
+                    <div class="sec-2-img">
+                        <!-- src指定图片路径是images/t6.jpg，alt指定图片无法加载时的文本内容 -->
+                        <img src="images/t6.jpg" alt="">
+                    </div>
+
+                    <!-- 定义div容器，具有sec-2-img类 -->
+                    <div class="sec-2-img">
+                        <!-- src指定图片路径是images/t2.jpg，alt指定图片无法加载时的文本内容 -->
+                        <img src="images/t2.jpg" alt="">
+                    </div>
+
+                    <!-- 定义div容器，具有sec-2-img类 -->
+                    <div class="sec-2-img">
+                        <!-- src指定图片路径是images/t3.jpg，alt指定图片无法加载时的文本内容 -->
+                        <img src="images/t3.jpg" alt="">
+                    </div>
+                </div>
+                <!-- end -->
+
+                <!-- 定义容器，具有sec-1-left,sec-2-left类 -->
+                <div class="sec-1-left sec-2-left">
+                    <!-- 定义div容器，存放标题 -->
+                    <div class="title">
+                        <!-- 二级标题 -->
+                        <h2>旅游经历</h2>
+                        <!-- 文本内容 -->
+                        <p>travel experience </p>
+                    </div>
+
+                    <!-- 定义容器，具有sec-1-text类，存放旅游经历的文本描述 -->
+                    <div class="sec-1-text">
+                        <!-- 旅游的详细文本内容 -->
+                        <p>旅行地点：珠海 <br />
+                            游玩地点：东澳岛 爱情邮局 圆明新园 庞都广场 日月贝<br />
+                            游玩时长：3天 <br />
+                            景点评价：<br/>
+                            东澳岛：水质纯净，长海岸线，浪漫唯美<br />
+                            爱情邮局：沿路打卡珠海渔女、香炉海湾沙滩，吹拂海风 ，欣赏绝美日落<br />
+                            圆明新园：融合古典皇家建筑群、江南古典园林建筑群和西洋建筑群为一体，复刻圆明园的场景<br />
+                            庞都广场：横琴第一个葡国文化建筑物，行走在欧式古堡建筑就如同穿梭到了古罗马的街道<br />
+                            日月贝：造型像两个大小贝壳，海堤景观适合拍风景个人照<br />
+                        </p>
+                        <!-- 详细描述结束 -->
+                    </div>
+                    <!-- end -->
+                </div>
+                <!-- end -->
+            </div>
+
+            <!-- 弹性布局 -->
+             <!-- 定义容器，具有sec-3 container2类 -->
+            <div class="sec-3 container2">
+                <!-- 定义容器，具有sec-3-inner flexbox类 -->
+                <div class="sec-3-inner flexbox">
+                    <!-- 定义容器，具有sec-3-text，存放志愿经历描述 -->
+                    <div class="sec-3-text">
+                        <!-- 定义容器，存放标题 -->
+                        <div class="title">
+                            <!-- 二级标题 -->
+                            <h2>志愿经历</h2>
+                            <!-- 文本描述 -->
+                            <p>volunteer experience</p>
+                        </div>
+                        <!-- 志愿经历详细描述 -->
+                        <p>
+                            2023年5月报名参加童年一课线上授课老师。 <br />
+                            2023年6月通过授课老师面试，试讲合格。 <br />
+                            2023年9月开始填写志愿教授科目，社团分配学校班级，9月中旬正式开始国学课程授课。 <br />
+                            2023年11月，第一学期授课完美结束，并决定报名参加第二学期授课。<br />
+                            2024年3月开始第二学期授课，2024年6月正式结束第二学期授课。 <br />
+                        </p>
+                        <!-- 详细描述结束 -->
+                    </div>
+
+                    <!-- 定义容器，具有sec-3-img-wrap flexbox类 -->
+                    <div class="sec-3-img-wrap flexbox">
+                        <!-- src指定图片路径是images/v1.jpg，alt指定图片无法加载时的文本内容 -->
+                        <img src="images/v1.jpg" alt="">
+                        <!-- src指定图片路径是images/v2.jpg，alt指定图片无法加载时的文本内容 -->
+                        <img src="images/v2.jpg" alt="">
+                        <!-- src指定图片路径是images/v3.jpg，alt指定图片无法加载时的文本内容 -->
+                        <img src="images/v3.jpg" alt="">
+                        <!-- src指定图片路径是images/v4.jpg，alt指定图片无法加载时的文本内容 -->
+                        <img src="images/v4.jpg" alt="">
+                    </div>
+                    <!-- 结束 -->
+                </div>
+            </div>
+        </section>
+        <!-- end of section -->
+
+        <!-- footer页脚 -->
+        <footer>
+        <!-- 文本内容 -->
+            <p>Welcome to my personal homepage!<br>
+                欢迎来到我的网站</p>
+        </footer>
+      <!-- end of footer -->
+    </body>
+</html>
